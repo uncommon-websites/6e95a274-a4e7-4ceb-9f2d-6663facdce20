@@ -11,56 +11,56 @@
 	<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6 relative z-10">
 		<div>
 			<span class="font-mono text-[10px] text-gray-500 uppercase tracking-widest mb-4 block">
-				[ SHIP FASTER ]
+				[ POWERFUL FEATURES ]
 			</span>
 			<h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-gray-900 mb-4">
-				Your second pair of eyes.
+				Everything you need to<br>manage AWS at scale.
 			</h2>
-			<p class="font-mono text-sm text-gray-600 max-w-lg">
-				Greptile automatically reviews PRs in Github and GitLab with full context of your codebase.
+			<p class="text-sm text-gray-600 max-w-lg">
+				Replace your AWS console with a unified, AI-powered dashboard that connects securely and scales with your team.
 			</p>
 		</div>
 		
 		<button class="bg-black text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
-			See Greptile in action ->
+			View Demo ->
 		</button>
 	</div>
 
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 		<FeatureCard 
-			subtitle="[ IN-LINE COMMENTS ]"
-			title="Get context-aware<br>comments on your PRs"
-			description="In-line comments to identify bugs, antipatterns, security issues, and more."
-			tagColor="bg-brand-green"
+			subtitle="[ UNIFIED DASHBOARD ]"
+			title="All your AWS resources<br>in one place"
+			description="View and manage EC2, RDS, S3, Lambda, and all AWS services from a single, intuitive interface."
+			tagColor="bg-primary-600"
 			tagIcon="arrow"
-            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=PR+Comments+UI"
+            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=Unified+Dashboard"
 		/>
 		
 		<FeatureCard 
-			subtitle="[ CUSTOM CONTEXT ]"
-			title="Describe your coding<br>standards in English"
-			description="Tell Greptile about your team's best practices. Greptile will enforce them across PRs."
+			subtitle="[ AUTOHEAL ]"
+			title="Self-healing infrastructure<br>powered by AI"
+			description="AI automatically detects and fixes common AWS issues before they impact your users. Reduce on-call burden."
 			tagColor="bg-accent-orange"
 			tagIcon="plus"
-            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=Coding+Standards+UI"
+            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=AutoHeal+AI"
 		/>
 		
 		<FeatureCard 
-			subtitle="[ PR SUMMARIES ]"
-			title="Quickly understand PRs<br>with AI-generated summaries"
-			description="Get mermaid diagrams, file-by-file breakdowns, and confidence scores for every PR."
+			subtitle="[ SECURE IAM ]"
+			title="Connect via secure<br>IAM roles"
+			description="No credentials stored. Connect your AWS account through secure IAM roles with granular permissions."
 			tagColor="bg-accent-pink"
 			tagIcon="arrow"
-            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=PR+Summaries+UI"
+            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=IAM+Security"
 		/>
 		
 		<FeatureCard 
-			subtitle="[ LEARNING ]"
-			title="Greptile learns by<br>reading your comments"
-			description="Greptile infers your team's coding standards by reading every engineer's comments on PRs."
+			subtitle="[ COST OPTIMIZATION ]"
+			title="Save on AWS costs<br>automatically"
+			description="AI-driven insights identify wasteful spending and optimize resource allocation to reduce your AWS bill."
 			tagColor="bg-accent-yellow"
 			tagIcon="plus"
-            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=Learning+UI"
+            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=Cost+Savings"
 		/>
 	</div>
 </section>

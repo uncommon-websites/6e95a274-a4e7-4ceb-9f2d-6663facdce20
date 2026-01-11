@@ -1,73 +1,91 @@
 <script lang="ts">
-	// Logos
+	// Logos - DevOps and Cloud companies
 	const logos = [
-		{ name: 'Brex', width: 80 },
-		{ name: 'Substack', width: 90 },
-		{ name: 'Bilt', width: 60 },
-		{ name: 'Klaviyo', width: 80 },
-		{ name: 'PostHog', width: 90 },
-		{ name: 'Raycast', width: 80 },
-		{ name: 'Browserbase', width: 100 },
-		{ name: 'Mintlify', width: 80 },
-		{ name: 'Crossmint', width: 90 },
-		{ name: 'Pylon', width: 60 }
+		{ name: 'Vercel', width: 80 },
+		{ name: 'Stripe', width: 90 },
+		{ name: 'Notion', width: 80 },
+		{ name: 'Linear', width: 70 },
+		{ name: 'Supabase', width: 90 },
+		{ name: 'Fly.io', width: 70 },
+		{ name: 'Railway', width: 80 },
+		{ name: 'Render', width: 80 },
+		{ name: 'Planetscale', width: 100 },
+		{ name: 'Neon', width: 60 }
 	];
 </script>
 
 <section class="relative pt-32 pb-16 px-6 md:px-12 max-w-7xl mx-auto min-h-screen flex flex-col justify-between">
 	<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 		<div class="z-10">
-			<h1 class="text-6xl md:text-7xl lg:text-8xl font-display font-medium text-brand-green leading-[0.9] tracking-tight mb-8">
-				The AI Code Reviewer
+			<h1 class="text-6xl md:text-7xl lg:text-8xl font-display font-medium text-gray-900 leading-[0.9] tracking-tight mb-8">
+				Your AWS Console,<br><span class="text-primary-600">Self-Healing</span>
 			</h1>
 			
-			<div class="relative w-12 h-12 mb-8">
-				<!-- Fly icon/illustration -->
-				<svg viewBox="0 0 24 24" fill="none" class="w-8 h-8 text-gray-400 absolute top-0 left-0 animate-bounce">
-					<path d="M12 2L15 8L21 9L17 14L18 20L12 17L6 20L7 14L3 9L9 8L12 2Z" fill="currentColor" opacity="0.5"/>
-				</svg>
-			</div>
-
 			<div class="space-y-6 max-w-lg">
-				<p class="font-mono text-sm text-brand-green uppercase tracking-wider leading-relaxed">
-					AI AGENTS THAT CATCH BUGS<br>
-					IN YOUR PULL REQUESTS WITH<br>
-					FULL CONTEXT OF YOUR CODEBASE
+				<p class="text-lg text-gray-600 leading-relaxed">
+					Unified AWS management dashboard powered by AI. Connect via secure IAM roles, let AutoHeal fix issues automatically, and scale your cloud operations without the headcount.
 				</p>
 
 				<div class="flex flex-col items-start gap-3">
-					<button class="bg-brand-green text-white px-6 py-3 rounded text-sm font-medium hover:bg-brand-green-hover transition-colors flex items-center gap-2">
-						Try For Free 
+					<button class="bg-primary-600 text-white px-6 py-3 rounded text-sm font-medium hover:bg-primary-700 transition-colors flex items-center gap-2 shadow-sm">
+						Start 60-Second Import
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 					</button>
 					<p class="text-[10px] text-gray-500 font-mono uppercase tracking-wide">
-						no credit card required - 14-day free trial
+						Connect your AWS account in 60 seconds • No credit card required
 					</p>
 				</div>
 			</div>
 		</div>
 
 		<div class="relative h-[400px] lg:h-[600px] w-full flex items-center justify-center">
-			<!-- Lizard Illustration Placeholder -->
-			<div class="absolute inset-0 flex items-center justify-center opacity-80 mix-blend-multiply">
-				<!-- This is a complex engraving style illustration. Using a placeholder SVG representation. -->
-				<svg viewBox="0 0 400 400" class="w-full h-full text-gray-400" fill="currentColor">
-					<path d="M100,300 Q150,250 200,300 T300,300" stroke="currentColor" stroke-width="2" fill="none" />
-					<circle cx="200" cy="200" r="150" fill="currentColor" opacity="0.1" />
-					<text x="50%" y="50%" text-anchor="middle" font-family="serif" font-size="24" fill="#666">Engraving of Lizard</text>
-				</svg>
-                <!-- In a real implementation, this would be an <img> tag with the specific asset -->
-                <img src="https://placehold.co/600x600/EAEAE8/666666?text=Lizard+Engraving" alt="Lizard" class="w-full h-full object-contain mix-blend-multiply grayscale contrast-125" />
+			<!-- AWS Dashboard Visualization -->
+			<div class="absolute inset-0 flex items-center justify-center">
+				<div class="w-full max-w-lg bg-white rounded-lg shadow-2xl border border-gray-200 overflow-hidden">
+					<!-- Mock Dashboard Header -->
+					<div class="bg-gray-50 border-b border-gray-200 px-4 py-3 flex items-center justify-between">
+						<div class="flex items-center gap-2">
+							<div class="w-3 h-3 rounded-full bg-red-400"></div>
+							<div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+							<div class="w-3 h-3 rounded-full bg-green-400"></div>
+						</div>
+						<span class="text-xs text-gray-500 font-mono">genaura.cloud</span>
+					</div>
+					<!-- Mock Dashboard Content -->
+					<div class="p-6 space-y-4">
+						<div class="flex items-center justify-between">
+							<div class="text-sm font-medium text-gray-900">AWS Resources</div>
+							<div class="text-xs text-primary-600 font-mono">● Live</div>
+						</div>
+						<div class="grid grid-cols-3 gap-3">
+							<div class="bg-gray-50 rounded p-3 border border-gray-200">
+								<div class="text-xs text-gray-500 mb-1">EC2</div>
+								<div class="text-lg font-bold text-gray-900">24</div>
+							</div>
+							<div class="bg-gray-50 rounded p-3 border border-gray-200">
+								<div class="text-xs text-gray-500 mb-1">RDS</div>
+								<div class="text-lg font-bold text-gray-900">8</div>
+							</div>
+							<div class="bg-gray-50 rounded p-3 border border-gray-200">
+								<div class="text-xs text-gray-500 mb-1">S3</div>
+								<div class="text-lg font-bold text-gray-900">156</div>
+							</div>
+						</div>
+						<div class="bg-primary-50 border border-primary-200 rounded p-3 flex items-start gap-2">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary-600 shrink-0 mt-0.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+							<div class="text-xs text-primary-900">
+								<span class="font-bold">AutoHeal:</span> Fixed 3 issues in the last hour
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="mt-20 border-t border-gray-300 pt-8">
 		<div class="flex items-center gap-2 text-[10px] font-mono uppercase tracking-wider text-gray-600 mb-6">
-			1000+ SOFTWARE TEAMS USE GREPTILE TO SHIP FASTER. 
-			<a href="/" class="text-brand-green hover:underline flex items-center gap-1">
-				SEE WHY TEAMS <span class="text-xs">♥</span> GREPTILE ->
-			</a>
+			Trusted by DevOps teams running AWS at scale
 		</div>
 		
 		<div class="grid grid-cols-2 md:grid-cols-5 gap-8 opacity-60 grayscale">

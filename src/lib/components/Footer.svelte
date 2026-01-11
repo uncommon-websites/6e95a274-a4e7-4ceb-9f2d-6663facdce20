@@ -3,8 +3,15 @@
 		<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-16">
 			<div class="col-span-2 lg:col-span-1">
 				<a href="/" class="flex items-center gap-2 text-brand-dark font-medium text-xl tracking-tight mb-6">
-					<div class="w-6 h-6 bg-brand-green rounded-sm flex items-center justify-center text-white text-xs font-bold">G</div>
-					Greptile
+					<div class="w-6 h-6 text-primary-600">
+						<svg viewBox="0 0 97 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path opacity="0.5" d="M0.84375 29.5892V75.3785L43.791 45.7896V0L0.84375 29.5892Z" fill="currentColor" />
+							<path opacity="0.5" d="M0.84375 75.3787V29.5891L43.791 59.1783V104.968L0.84375 75.3787Z" fill="currentColor" />
+							<path opacity="0.5" d="M96.8438 29.5891V75.3787L53.8965 45.7895V0L96.8438 29.5891Z" fill="currentColor" />
+							<path opacity="0.5" d="M96.8438 75.3787V29.5891L53.8965 59.1783V104.968L96.8438 75.3787Z" fill="currentColor" />
+						</svg>
+					</div>
+					Genaura
 				</a>
 			</div>
 			
